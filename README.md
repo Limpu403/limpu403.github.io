@@ -6,19 +6,9 @@ tmaize-blog是一款 jekyll 主题（[GitHub 地址](https://github.com/TMaize/t
 
 # 项目配置
 
-1. 如果使用自己的域名，`CNAME`文件里的内容请换成你自己的域名，然后 CNAME 解析到`用户名.github.com`
+1. 修改`pages/about.md`中关于我的内容
 
-2. 如果使用 GitHub 的的域名，请删除`CNAME`文件,然后把你的项目修改为`用户名.github.io`
-
-3. 修改`pages/about.md`中关于我的内容
-
-4. 修改`_config.yml`文件，具体作用请参考注释
-
-5. 清空`post _posts`目录下所有文件，注意是清空，不是删除这两个目录
-
-6. 网站的 logo 和 favicon 放在了`static/img/`下，替换即可，大小无所谓，图片比例最好是 1:1
-
-7. 如果你是把项目 fork 过去的，想要删除我的提交记录可以先软重置到第一个提交，然后再提交一次，最后强制推送一次就行了
+2. 修改`_config.yml`文件，具体作用请参考注释
 
 # 使用
 
