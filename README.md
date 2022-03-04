@@ -4,12 +4,6 @@ tmaize-blog是一款 jekyll 主题（[GitHub 地址](https://github.com/TMaize/t
 
 你可以到[TMaize Blog](https://blog.tmaize.net/)查看主题效果
 
-# 项目配置
-
-1. 修改`pages/about.md`中关于我的内容
-
-2. 修改`_config.yml`文件，具体作用请参考注释
-
 # 使用
 
 文章放在`_posts`目录下，命名为`yyyy-MM-dd-xxxx-xxxx.md`，内容格式如下
