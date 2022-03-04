@@ -9,6 +9,7 @@ title: 留言板
 const myTheme = {
   render(state, instance) {
     const container = document.createElement('div')
+    container.lang = "zh-cn"
     container.className = 'gitment-container gitment-root-container'
     container.appendChild(instance.renderHeader(state, instance))
     container.appendChild(instance.renderEditor(state, instance))
@@ -20,11 +21,11 @@ const myTheme = {
 var gitment = new Gitment({
   id: '页面 ID', // 可选。默认为 location.href
   owner: 'Limpu403',
-  repo: '存储评论的 repo',
+  repo: 'limpu403.github.io/msg',
   theme: myTheme,
   oauth: {
-    client_id: '你的 client ID',
-    client_secret: '你的 client secret',
+    client_id: 'cf09392cebe3a8c530c7',
+    client_secret: 'd8d2a74aa79a6cf5aa4161f12122c361451be231',
   },
 })
 gitment.render('container')
