@@ -2,18 +2,20 @@
 layout: mypost
 title: 留言板
 ---
-<div id="container"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
-  id: '页面 ID', // 可选。默认为 location.href
+var gitalk = new Gitalk({
+  clientID: 'cf09392cebe3a8c530c7',
+  clientSecret: 'd8d2a74aa79a6cf5aa4161f12122c361451be231',
+  repo: 'limpu403.github.io',
   owner: '81900789',
-  repo: 'https://github.com/Limpu403/limpu403.github.io',
-  oauth: {
-    client_id: 'cf09392cebe3a8c530c7',
-    client_secret: 'd8d2a74aa79a6cf5aa4161f12122c361451be231',
-  },
+  admin: ['81900789'],
+  language: 'zh-CN',
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
 })
-gitment.render('container')
+
+gitalk.render('gitalk-container')
 </script>
