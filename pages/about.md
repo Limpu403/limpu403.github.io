@@ -7,7 +7,7 @@ title: 关于我
 
 该博客托管于 GitHub Page，主题使用[tmaize-blog](https://github.com/TMaize/tmaize-blog)
 
-另外欢迎添加友链，在[留言板](chat.html)留言即可
+另外欢迎添加友链，在[留言板](/chat.html)留言即可
 
 ## 联系我
 
