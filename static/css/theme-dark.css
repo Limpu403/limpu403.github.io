@@ -14,7 +14,7 @@ html.dark img {
   filter: brightness(0.8) contrast(1.2);
 }
 html.dark .footer a {
-  color: #58a6ff;
+  color: #585858;
 }
 html.dark .list-category div a {
   border-bottom: 1px solid #8b949e;
