@@ -3,7 +3,8 @@ layout: mypost
 title: 曲集（新）
 categories: [杂]
 ---
-
+<html>
+  <p>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
   const axios = require("axios");
@@ -11,7 +12,7 @@ categories: [杂]
     .get("https://api.bilibili.com/x/v3/fav/resource/list?media_id=1596142224&ps=20&pn=1")
     .then(function (response) {
       //处理成功情况
-      document.write(<p>response</p>);
+      document.write(response);
     })
     .catch(function (error) {
       //处理错误情况
@@ -21,3 +22,5 @@ categories: [杂]
       //总是会执行
     });
 </script>
+  </p>
+</html>
